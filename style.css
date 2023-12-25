@@ -95,7 +95,7 @@ color:blue
 
 /* home */
 #main{
-    background-image: url("img/hero4.png");
+    background-image: url("hero4.png");
     height: 90vh;
     width: 100%;
     background-position: top 25% right 0;
@@ -114,7 +114,7 @@ color:blue
 }
 
 #main button{
-    background-image: url("img/button.png");
+    background-image: url("button.png");
     background-color: transparent;
     color: #088178;
     border: 0;
@@ -228,7 +228,7 @@ box-shadow: 20px 20px 30px rgba(0, 0,0, 0.07);
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("img/banner/b2.jpg");
+    background-image: url("b2.jpg");
     width:100%;
     height: 40vh;
     background-size: cover;
@@ -269,14 +269,14 @@ button.expo:hover{
     justify-content: center;
     align-items: flex-start;
 
-    background-image: url("img/banner/b17.jpg");
+    background-image: url("b17.jpg");
     min-width:580px;
     height: 50vh;
     background-size: cover;
     padding: 30px;
 }
 #smbanner .bannerbox2{
-    background-image: url("img/banner/b18.jpg");
+    background-image: url("b18.jpg");
 }
 #smbanner{
     display: flex;
@@ -325,7 +325,7 @@ button.white:hover{
     justify-content: center;
     align-items: flex-start;
 
-    background-image: url("img/banner/b7.jpg");
+    background-image: url("b7.jpg");
     min-width:30%;
     height: 30vh;
     background-size: cover;
@@ -352,10 +352,10 @@ button.white:hover{
 }
 
 #banner3 .bannerbox2{
-    background-image: url("img/banner/b4.jpg");
+    background-image: url("b4.jpg");
 }
 #banner3 .bannerbox3{
-    background-image: url("img/banner/b10.jpg");
+    background-image: url("b10.jpg");
 }
 
 #newsletter{
@@ -363,7 +363,7 @@ button.white:hover{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("img/banner/b14.png");
+    background-image: url("b14.png");
     background-color: #041e42;
     background-repeat: no-repeat;
     background-position:20% 30%;
