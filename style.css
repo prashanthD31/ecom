@@ -152,10 +152,10 @@ padding: 40px 80px;
 }
 #feature{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
 
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 #feature .fe-box:nth-child(2) h6{
     background-color:yellowgreen;
@@ -268,7 +268,7 @@ button.expo:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
+background-position: center;
     background-image: url("b17.jpg");
     min-width:580px;
     height: 50vh;
@@ -446,5 +446,119 @@ flex-direction: column;
 #lbag{
     display: none;
 }
+#main {
+
+    height: 90vh;
+    width: 100%;
+    background-position: top 30% right 30%;
+  
+}
+#feature {
+justify-content: center;
+}
+
+#feature .fe-box {
+
+    margin: 15px 15px;
+}
+#product1 .pro-container {
+   justify-content: center;
+}
+#product1 .pro {
+   
+    margin: 16px ;
+}
+#banner {
+  
+    height: 20vh;
+}
+#smbanner .bannerbox {
+
+    min-width:100%;
+    height: 30vh;
+}
+#banner3 {
+       
+        padding: 0 40px;
+    }
+    #banner3 .bannerbox {
+
+        width: 30%;
+      
+    }
+
 
 }
+
+
+@media (max-width:477px){
+    #header {
+  
+        padding: 10px 30px;
+      
+    }
+    #main {
+      
+        background-position:55%;
+
+        padding: 0 20px;
+        
+        /* align-items: flex-start; */
+    }
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    .sectionp1 {
+        padding:20px;
+    }
+    #feature .fe-box {
+        width: 155px;
+  
+        margin: 0 0 15px 0;
+    }
+    #feature {
+        justify-content: space-between;
+    }
+    #product1 .pro-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    #product1 .pro {
+        width:100%;
+      
+    }
+    #banner {
+       
+     
+        height: 40vh;
+      
+    }
+    #smbanner .bannerbox {
+    
+        height: 40vh;
+      
+    }
+    #smbanner .bannerbox2 {
+        margin-top: 20px;
+
+}
+#banner3 {
+  padding: 0 20px;
+}
+#banner3 .bannerbox {
+width: 100%;
+}
+#banner3 .bannerbox2 {
+  margin-top: 20px;
+}
+#banner3 .bannerbox3 {
+    margin-top: 20px;
+  }
+}
+
+
